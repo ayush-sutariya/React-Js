@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+body{
+  color: white;
+}
+table{
+  background-image: url(./image/nature-3082832__480.jpg);
+  border: 1px solid white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,7 +29,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+td{
+  width: 100vh;
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
